@@ -11,7 +11,7 @@
 }
 
 header{
-    background-color: #f0f0f0;
+    background-color:rgb(58, 55, 55);
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -23,7 +23,7 @@ header{
 
 .logo {
 text-decoration: none;
-color:#3a6cf4;
+color:#324f9f;
 text-transform: uppercase;
 font-weight: 700;
 font-size: 1.8em;
@@ -31,7 +31,7 @@ font-size: 1.8em;
 
 .nava a {
 
-    color:#3a6cf4 ;
+    color:#324f9f;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -40,7 +40,7 @@ font-size: 1.8em;
 
 .nava a:hover{
 
-    color: darkmagenta;
+    color: #f0f0f0;
 }
 section{
     padding: 40px 40px;
@@ -63,7 +63,7 @@ background-attachment: fixed;
 
 .main h2{
 
-color:#3a6cf4 ;
+color:#324f9f ;
 font-size: 1.4em;
 font-weight: 500;
 
@@ -71,7 +71,7 @@ font-weight: 500;
 .main h2 span {
 display: inline-block;
 margin-top: 10px;
-color:#3a6cf4 ;
+color:#324f9f ;
 font-size: 2.5em;
 font-weight: 600;
 
@@ -91,7 +91,7 @@ font-weight: 600;
     .main-btn{
         display: inline-block;
         color:white ;
-        background-color:#3a6cf4 ;
+        background-color:#324f9f ;
         text-decoration: none;
         font-size: 1.1em;
         font-weight: 600;
@@ -103,7 +103,7 @@ font-weight: 600;
         transition: 0.7s ease;
     }
 .main-btn:hover{
-background-color:blue;
+background-color:rgb(30, 30, 82);
 transform: scale(1.2);
 
 }
@@ -115,17 +115,28 @@ color: rgb(0, 57, 133);
 font-size: 2em;
 padding-right: 20px;
 }
+.social-icon p {
+      margin-left: 10px;
+    color: #fff;
+    font-size: 0.5em;
+    padding-right: 20px;
+    }
+    .main .social-icon p {
+        margin-left: 10px;
+        color: #fff;
+        font-size: 0.9em;
+        padding-right: 20px;}
 
 .icon{
 
-color: blue;
+color: 324f9f;
 font-size: 2em;
 }
 .title{
 
 display: flex;
 justify-content: center;
-color: #3a6cf4;
+color: #324f9f;
 font-size: 2.2em;
 font-weight: 700;
 margin-bottom: 30px;
@@ -141,7 +152,7 @@ flex-wrap: wrap;
 
 .card{
 background-color: #f0f0f0;
-width:13em;
+width:17em;
 box-shadow: 0 5px 25px rgba(1 1 1 /15%) ;
 border-radius: 10px;
 padding:15px;
@@ -155,7 +166,7 @@ transition: 0.7s ease;
 }
 
 .icon{
-color: #3a6cf4;
+color: #324f9f;
 font-size: 5em;
 text-align: center;
 }
@@ -164,9 +175,11 @@ text-align: center;
 text-align: center;
 
 }
-.info h3{
-    color: #3a6cf4;
-    font-size: 1.8em;
+.info a{
+    color: #324f9f;
+    font-size: 0.8em;
+    text-align: center;
+   
     font-weight: 700;
     margin: 10px;
 }
@@ -242,7 +255,7 @@ color:#000;
 
 .more-ditals{
 text-decoration: none;
-color: #3a6cf4;
+color: #324f9f;
 
 
 
@@ -283,7 +296,7 @@ font-weight: bold;
 
 .footer-title span{
 
-    color: #3a6cf4;
+    color: #324f9f;
 }
 
 .footer .social-icon a {
